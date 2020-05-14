@@ -73,3 +73,120 @@
 // }
 
 // console.log(temperatureInF(88, 'F'));
+
+
+// * ### Challenge `makePersonObject`
+// * 
+// * @instructions
+// * This function should take an id, a name and an email as arguments,
+// * and return an object with `id`, `name` and `email` properties.
+// * 
+// * For example, if we invoke `makePersonObject`
+// * passing 5, 'Leia' and 'leia@leia.com' as arguments,
+// * the returned value should look like:
+
+// * @instructions
+//  * This function should take an id, a name and an email as arguments,
+//  * and return an object with `id`, `name` and `email` properties.
+//  * 
+//  * For example, if we invoke `makePersonObject`
+//  * passing 5, 'Leia' and 'leia@leia.com' as arguments,
+//  * the returned value should look like:
+//  * {
+//  *   id: 5,
+//  *   name: "Leia",
+//  *   email: "leia@leia.com",
+//  * }
+// */
+// function makePersonObject(/* code here */) {
+//   /* code here */
+// }
+
+
+// const personObject {
+//    id: 5,   
+//    name: "Leia",
+//    email: "leia@leia.com",
+// }
+
+
+
+// function makePersonObject(id, name, email) {
+//   const personObject = {id: id, name: name, email: email }
+//   return personObject;
+
+// }
+
+// console.log(makePersonObject(5, 'Leia', 'leia@leia.com'));
+// console.log(personObject);
+
+// const newObject = makePersonObject(5, 'Leia', 'leia@leia.com');
+// console.log(newObject);
+
+
+// * ### Challenge `getName`
+// * 
+// * @instructions
+
+// Create a personObject with these varaibles.  
+// { id: 1, name: 'Leia', email: 'leia@leia.com` }
+// Pass the object into a function
+// Return string that says " whatever "
+
+// * This function takes as its only argument
+// -- take in an object
+// * an object containing a `name` property,
+// * and return a string that reads `Hello, my name is {name}`,
+// * where `{name}` is the name stored in the object.
+// * 
+// * For example, if we invoke `getName`
+// * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
+// * the returned value should look like `Hello, my name is Leia`.
+// */
+
+
+// const personObject = {
+//   id: 1, 
+//   name: 'Leia', 
+//   email: 'leia@leia.com',
+// }
+ 
+// function getName(personObject) {
+//   return `Hello, my name is ${personObject.name}`;
+ 
+// }
+
+// console.log(personObject.name);
+
+// const newObject = getName(personObject);
+// console.log(newObject);
+
+
+// * ### Challenge `appleIndex`
+// * 
+// * @instructions
+// * This function takes as its only argument an array 
+// * containing strings,
+// * and returns the index in the array of the string 'apple'.
+// * 
+// * You may assume the string 'apple' will appear exactly 
+// * once in the array.
+// * 
+// * For example, if we invoke `appleIndex`
+// * passing in [ 'orange', 'grape', 'apple', 'banana', 'mango' ] as the argument,
+// * the returned value should be: 2.
+// */
+
+
+const fruit = [ 'orange', 'grape', 'apple', 'banana', 'mango' ];
+
+
+  function appleIndex() {
+    return `${fruit[i].appleIndex}`
+    
+ 
+}
+
+
+console.log(appleIndex);
+
