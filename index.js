@@ -330,11 +330,13 @@ var inventory = [
 
 // inventory.forEach(inventory => console.log(inventory.car_year));
 
-// const getModelYears = [];
-// for (let i = 0; i < inventory.length; i++) {
-//   console.log(inventory[i].car_year);
-// }
+let getModelYears = [];
+for (let i = 0; i < inventory.length; i++) {
+  getModelYears.push(inventory[i].car_year);
+  
+}
 
+console.log(getModelYears);
 
 
 // function getModelYears(car_year) {
