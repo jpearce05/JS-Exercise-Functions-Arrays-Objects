@@ -309,15 +309,49 @@ var inventory = [
  * For example, if getLastCarInfo is invoked passing the inventory inside /data/inventory.js,
  * it will return `This is a Lincoln Town Car`.
 */
-function getLastCarInfo(inventory) {
-  let carBy = inventory[inventory.length -1];
-  return `This is a ${carBy.car_make} ${carBy.car_model}`
+// function getLastCarInfo(inventory) {
+//   let carBy = inventory[inventory.length -1];
+//   return `This is a ${carBy.car_make} ${carBy.car_model}`
   
+// }
+
+// console.log(getLastCarInfo(inventory));
+
+/**
+ * ### Challenge `getModelYears`
+ * 
+ * instructions
+ * We need the years from every car in the inventory!
+ * getModelYears takes a single argument:
+ *     (1) an array which is an inventory of cars like the one inside /data/inventory.js.
+ * getModelYears returns an array containing all the 'car_year's in the inventory.
+ *  { id: 1, car_make: "Lincoln", car_model: "Navigator", car_year: 2009 },
+*/
+
+// inventory.forEach(inventory => console.log(inventory.car_year));
+
+// const getModelYears = [];
+// for (let i = 0; i < inventory.length; i++) {
+//   console.log(inventory[i].car_year);
+// }
+
+
+
+// function getModelYears(car_year) {
+//   let carYears = [];
+//   for (i = 0; i < inventory.length; i++) {
+//   carYears.push(inventory.car_year[i])
+    
+    
+//   }
+
+//   return carYears;
   
-}
+// }
 
-console.log(getLastCarInfo(inventory));
-
+// let myCarYears = getModelYears();
+// console.log(myCarYears);
+// console.log(inventory[i].car_year);
 
 
 
