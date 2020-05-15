@@ -265,18 +265,18 @@ var inventory = [
   * NOTE: This example has been completed for you.
 **/
 
-// function get3rdCar(inventory) {
-//   const the3rd = inventory[2];
-//   return `The is a ${the3rd.car_make} ${the3rd.car_model}`
-// }
+function get3rdCar(inventory) {
+  const the3rd = inventory[2];
+  return `The is a ${the3rd.car_make} ${the3rd.car_model}`
+}
 
-// console.log(get3rdCar(inventory));
+console.log(get3rdCar(inventory));
 
 
 /**
  * ### Challenge `getCarInfoByIndex`
  * 
- * @instructions
+ * instructions
  * getCarInfoByIndex takes two arguments:
  *     (1) an array which is an inventory of cars like the preview above (see ⭐️ Preview Test Data ⭐️)
  *     (2) a number which is the desired index in the array.
@@ -284,9 +284,17 @@ var inventory = [
  * 
  * For example, if getCarInfoByIndex is invoked with the inventory and the number 0,
  * it will return `This is a Lincoln Navigator`.
+ * 
+ * 
+ * 
+ *  { id: 1, car_make: "Lincoln", car_model: "Navigator", car_year: 2009 },
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+  let carBy = inventory[index];
+  return `This is a ${carBy.car_make} ${carBy.car_model}`
+  // return `The is a ${the3rd.car_make} ${the3rd.car_model}`
 }
+
+console.log(getCarInfoByIndex(inventory, 0));
 
 
